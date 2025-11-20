@@ -84,7 +84,7 @@
             bindings = <
 &kp GRAVE         &kp N1  &kp N2                &kp N3                 &kp N4     &kp N5            &kp C_VOLUME_DOWN       &kp C_VOLUME_UP       &kp N6            &kp N7          &kp N8            &kp N9        &kp N0    &kp MINUS
 &kp LEFT_BRACKET  &kp Q   &kp W                 &kp E                  &kp R      &kp T             &kp C_BRIGHTNESS_DEC    &kp C_BRIGHTNESS_INC  &kp Y             &kp U           &kp I             &kp O         &kp P     &kp RIGHT_BRACKET
-&kp GRAVE         &kp A   &kp S                 &kp D                  &kp F      &kp G             &kp EQUAL               &to 3                 &kp H             &kp J           &kp K             &kp L         &kp SEMI  &kp APOS
+&kp GRAVE         &kp A   &kp S                 &kp D                  &kp F      &kp G             &kp EQUAL               &none                 &kp H             &kp J           &kp K             &kp L         &kp SEMI  &kp APOS
 &kp LEFT_ALT      &kp Z   &kp X                 &kp C                  &kp V      &kp B                                                           &kp N             &kp M           &kp COMMA         &kp DOT       &kp FSLH  &kp RSHFT
                   &mo 2   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                                                                                                               &kp BACKSLASH     &kp PIPE      &mo 2
                           &kp ENTER             &kp LEFT_COMMAND       &kp SPACE  &kp LEFT_CONTROL  &kp TAB                 &kp BACKSPACE         &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_COMMAND  &lt 1 ESCAPE
@@ -110,19 +110,6 @@
 &kp EXCL   &kp LESS_THAN     &kp MINUS             &kp EQUAL              &kp GREATER_THAN   &kp PLUS                          &kp EQUAL         &kp N1      &kp N2    &kp N3  &kp SLASH  &kp ASTRK
            &trans            &kp AMPERSAND         &kp PIPE                                                                                                  &kp N0    &trans  &trans
                              &kp BACKSLASH         &kp ASTERISK           &kp COLON          &kp PERIOD    &kp SEMI    &trans  &kp COMMA         &trans      &trans    &trans
-            >;
-        };
-
-        engram {
-            // LEFT HAND                                                      5-WAY SWITCH      RIGHT HAND
-
-            bindings = <
-&kp GRAVE  &kp N1  &kp N2                &kp N3                 &kp N4     &kp N5            &kp C_VOL_DN            &kp C_VOLUME_UP       &kp N6             &kp N7          &kp N8             &kp N9        &kp N0  &to 0
-&kp LBKT   &kp B   &kp Y                 &kp O                  &kp U      &kp APOS          &kp C_BRIGHTNESS_DEC    &kp C_BRIGHTNESS_INC  &kp SEMI           &kp L           &kp D              &kp W         &kp V   &kp RBKT
-&kp Z      &kp C   &kp I                 &kp E                  &kp A      &kp COMMA         &kp EQUAL               &kp EXCL              &kp DOT            &kp H           &kp T              &kp S         &kp N   &kp Q
-&kp LALT   &kp G   &kp X                 &kp J                  &kp K      &kp MINUS                                                       &kp SLASH          &kp R           &kp M              &kp F         &kp P   &kp RIGHT_ALT
-           &mo 1   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                                                                                                                &kp BACKSLASH      &kp PIPE      &mo 2
-                   &kp ENTER             &kp LEFT_COMMAND       &kp SPACE  &kp LEFT_CONTROL  &kp TAB                 &kp BACKSPACE         &kp RIGHT_CONTROL  &kp LEFT_SHIFT  &kp RIGHT_COMMAND  &lt 1 ESCAPE
             >;
         };
     };
