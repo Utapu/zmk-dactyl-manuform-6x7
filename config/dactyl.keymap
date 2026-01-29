@@ -121,8 +121,8 @@
 &bt BT_CLR_ALL  &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans          &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans          &trans        &trans        &trans        &trans        &trans                          &trans  &trans  &trans  &trans  &trans  &trans
-                &soft_off     &out OUT_BLE  &out OUT_USB                                                                &trans  &trans  &trans
-                              &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans
+                &trans        &out OUT_BLE  &out OUT_USB                                                                &trans  &trans  &trans
+                              &soft_off     &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
